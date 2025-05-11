@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get Firebase service account key path from environment variable
 FIREBASE_CREDENTIALS_PATH = os.getenv('FIREBASE_CREDENTIALS_PATH', 
-    os.path.join(os.path.dirname(__file__), '..', 'docudino-242f8-firebase-adminsdk-fbsvc-76c1451caa.json'))
+    os.path.join(os.path.dirname(__file__), '..', 'Your Credential file.json'))
 
 # Initialize Firebase Admin SDK
 try:

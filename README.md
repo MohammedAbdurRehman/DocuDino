@@ -5,26 +5,25 @@ DocuDino is a modern, secure, and efficient document verification and management
 ## Features
 
 - **Secure Authentication**
-  - Multi-factor authentication (MFA)
+  - Multi-factor authentication (MFA) using TOTP - Authenticator App 
   - JWT-based secure sessions
   - Password reset and recovery
-  - Role-based access control
+    
 
 - **Document Management**
-  - Document upload and storage
+  - Document upload and storage free solution
   - Document verification and validation
   - OCR (Optical Character Recognition) support
   - Document preview and sharing
 
 - **Security Features**
   - End-to-end encryption
-  - Secure file storage
+  - Secure Credentials storage
   - Audit logging
-  - Access control and permissions
+    
 
 - **User Management**
   - User registration and profiles
-  - Role management
   - Activity tracking
   - User verification
 
@@ -163,7 +162,7 @@ The API documentation is available at `/api/docs` when running the backend serve
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Authors
+## Authors
 
 - Mohammed Abdur Rehman - Frontend
 - Ayesha Kashif - Backend
